@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PUE监测</string>
+    <string-array name="pueTitles">
+        <item >当日PUE值</item>
+        <item>当月PUE值</item>
+        <item>当年PUE值</item>
+        <item>24小时累计PUE值</item>
+        <item>30天累计PUE值</item>
+        <item>365天累计PUE值</item>
+    </string-array>
+    <string-array name="channel">
+        <item>通道1</item>
+        <item>通道2</item>
+        <item>通道3</item>
+        <item>通道4</item>
+        <item>通道5</item>
+    </string-array>
+    <string-array name="shunt_state">
+        <item>总耗电</item>
+        <item>服耗电</item>
+        <item>总+服</item>
+        <item>不纳入</item>
+    </string-array>
+</resources>

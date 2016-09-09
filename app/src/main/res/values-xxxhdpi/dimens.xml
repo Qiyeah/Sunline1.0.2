@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_item_btn_size">400dp</dimen>
+    <dimen name="list_item_btn_bg_size">420dp</dimen>
+    <dimen name="pue_btn_size">80dp</dimen>
+    <dimen name="list_item_dividerHeight">20dp</dimen>
+</resources>

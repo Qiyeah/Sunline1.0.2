@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="list_item_back" type="id"/>
+    <item name="list_item_info" type="id"/>
+    <item name="list_item_power" type="id"/>
+    <item name="list_item_saving" type="id"/>
+    <item name="list_item_pue" type="id"/>
+    <item name="list_item_config" type="id"/>
+</resources>

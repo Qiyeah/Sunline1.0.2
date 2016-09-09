@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PUE监测</string>
+    <string-array name="pueTitles">
+        <item >当日PUE值</item>
+        <item>当月PUE值</item>
+        <item>当年PUE值</item>
+        <item>24小时累计PUE值</item>
+        <item>30天累计PUE值</item>
+        <item>365天累计PUE值</item>
+    </string-array>
+</resources>

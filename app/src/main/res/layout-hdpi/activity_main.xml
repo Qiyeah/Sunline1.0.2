@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main_background"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/main_btn_info"
+        android:background="@drawable/info_selector"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="8.5%"
+        app:layout_marginLeftPercent="61%"
+        app:layout_marginTopPercent="7%"
+
+        />
+
+    <Button
+        android:id="@+id/main_btn_power"
+        android:layout_gravity="center"
+        android:background="@drawable/power_selector"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="8.5%"
+        app:layout_marginLeftPercent="50.5%"
+        app:layout_marginTopPercent="21%"
+        />
+
+    <Button
+        android:id="@+id/main_btn_saving"
+        android:background="@drawable/saving_selector"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="8.5%"
+        app:layout_marginLeftPercent="46.5%"
+        app:layout_marginTopPercent="45%"/>
+
+
+
+    <Button
+        android:id="@+id/main_btn_honor"
+        android:background="@drawable/honor_selector"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="8.5%"
+        app:layout_marginLeftPercent="50%"
+        app:layout_marginTopPercent="67.5%" />
+    <Button
+        android:id="@+id/main_btn_support"
+        android:layout_gravity="center"
+        android:background="@drawable/support_selector"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="8.5%"
+        app:layout_marginLeftPercent="61%"
+        app:layout_marginTopPercent="82%"
+        />
+    <Button
+        android:id="@+id/main_btn_pue"
+        android:layout_gravity="center"
+        android:background="@drawable/main_pue_selector"
+        app:layout_heightPercent="55%"
+        app:layout_widthPercent="31%"
+        android:text="PUE:0.00"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="60sp"
+        app:layout_marginLeftPercent="57.8%"
+        app:layout_marginTopPercent="22.8%"
+        />
+
+
+
+</android.support.percent.PercentRelativeLayout>

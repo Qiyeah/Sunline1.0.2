@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        >
+        <Button
+
+            android:id="@+id/list_item_btn"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:padding="3dp"
+        android:layout_marginTop="255dp"
+        android:background="#ff0"
+        android:id="@+id/list_item_text"
+        />
+</FrameLayout>

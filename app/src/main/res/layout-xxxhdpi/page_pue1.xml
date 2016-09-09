@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/config_container"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pue_title"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="当日PUE值"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        app:layout_marginLeftPercent="50%"
+        app:layout_marginTopPercent="25%" />
+
+    <TextView
+        android:id="@+id/pue_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0.00"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        app:layout_marginLeftPercent="70%"
+        app:layout_marginTopPercent="34%" />
+
+
+    <Button
+        android:id="@+id/page_pue_btn1"
+        android:layout_width="@dimen/pue_btn_size"
+        android:background="@drawable/pue_day"
+        android:text="\n0.00"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="26%"
+        app:layout_marginTopPercent="75%" />
+    <Button
+        android:id="@+id/page_pue_btn2"
+        android:layout_width="@dimen/pue_btn_size"
+        android:layout_height="@dimen/pue_btn_size"
+        android:layout_gravity="bottom"
+        android:background="@drawable/pue_month"
+        android:text="\n0.00"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="35%"
+        app:layout_marginTopPercent="75%" />
+
+    <Button
+        android:id="@+id/page_pue_btn3"
+        android:layout_width="@dimen/pue_btn_size"
+        android:layout_height="@dimen/pue_btn_size"
+        android:layout_gravity="bottom"
+        android:background="@drawable/pue_year"
+        android:text="\n0.00"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="44%"
+        app:layout_marginTopPercent="75%"/>
+
+    <Button
+        android:id="@+id/page_pue_btn4"
+        android:layout_width="@dimen/pue_btn_size"
+        android:layout_gravity="bottom"
+        android:background="@drawable/pue_24"
+        android:text="\n0.00"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="53%"
+        app:layout_marginTopPercent="75%" />
+
+    <Button
+        android:id="@+id/page_pue_btn5"
+        android:layout_width="@dimen/pue_btn_size"
+        android:layout_gravity="bottom"
+        android:background="@drawable/pue_30"
+        android:text="\n0.00"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="62%"
+        app:layout_marginTopPercent="75%" />
+
+
+    <Button
+        android:id="@+id/page_pue_btn6"
+        android:layout_width="@dimen/pue_btn_size"
+        android:layout_gravity="bottom"
+        android:background="@drawable/pue_365"
+        android:text="\n0.00"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="71%"
+        app:layout_marginTopPercent="75%" />
+
+
+</android.support.percent.PercentRelativeLayout>

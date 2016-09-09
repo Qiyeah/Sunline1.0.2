@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:shrinkColumns="0,1"
+            android:stretchColumns="0,1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|right"
+                    android:text="设备状态"/>
+
+                <Switch
+                    android:layout_span="2"
+                    android:id="@+id/opened"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textOff="关闭"
+                    android:textOn="打开"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/shuntName1"
+                    android:gravity="center|right"
+                    android:text="通道1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+                <Spinner
+                    style="@style/spinner_style"
+                    android:id="@+id/shuntState1"
+                    />
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/shuntName2"
+                    android:gravity="center|right"
+                    android:text="通道2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+                <Spinner
+                    style="@style/spinner_style"
+                    android:id="@+id/shuntState2"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/shuntName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|right"
+                    android:text="通道3"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <Spinner
+                    style="@style/spinner_style"
+                    android:id="@+id/shuntState3"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/shuntName4"
+                    android:gravity="center|right"
+                    android:text="通道4"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <Spinner
+                    style="@style/spinner_style"
+                    android:id="@+id/shuntState4"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/shuntName5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|right"
+                    android:text="通道5"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <Spinner
+                    style="@style/spinner_style"
+                    android:id="@+id/shuntState5"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center|right"
+                    android:text="删除设备"/>
+
+                <CheckBox
+                    android:id="@+id/delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:checked="false"/>
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+</FrameLayout>
